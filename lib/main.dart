@@ -19,7 +19,7 @@ class SumTimeApp extends StatelessWidget {
         primarySwatch: Colors.orange,
         scaffoldBackgroundColor: Colors.white,
       ),
-      initialRoute: '/',
+
       routes: {
 
         '/login': (context) => const LoginPage(),
