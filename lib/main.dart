@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'user/login.dart';
-
+import 'user/register.dart';
 
 void main() {
   runApp(const SumTimeApp());
@@ -19,10 +19,10 @@ class SumTimeApp extends StatelessWidget {
         primarySwatch: Colors.orange,
         scaffoldBackgroundColor: Colors.white,
       ),
-
+      home: const LoginPage(),
       routes: {
 
-        '/login': (context) => const LoginPage(),
+        '/register': (context) => const RegisterPage(),
 
       },
     );
